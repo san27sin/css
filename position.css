@@ -1,0 +1,63 @@
+:root {
+    --background: grey;
+    --font-size: 70px;
+}
+
+.header {
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 10vh;
+    background: var(--background);
+}
+
+.header_main {
+    text-align: center;
+    font-size: var(--font-size);
+}
+
+.main {
+    display: flex;
+    position: relative;
+    width: 90%;
+    height: 70vh;
+    border: 3px solid black;
+    margin: auto;
+    margin-top: 20px;
+}
+
+
+
+.left_block {
+    width: 50%;
+    background: var(--background);
+    overflow: hidden;
+}
+
+.left_block_text {
+    font-size: var(--font-size);
+    margin-left: -30px;
+}
+
+.right_block {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 45%;
+    width: 45%;
+    background: var(--background);
+}
+
+.right_block_text {
+    font-size: var(--font-size);
+    padding-left: 40px;
+}
+
+.right_block_img {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+
+
