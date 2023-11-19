@@ -20,8 +20,8 @@
     display: flex;
     position: relative;
     width: 90%;
-    height: 70vh;
-    border: 3px solid black;
+    height: 75vh;
+    border: 6px solid black;
     margin: auto;
     margin-top: 20px;
 }
@@ -54,9 +54,11 @@
 }
 
 .right_block_img {
-    position: absolute;
-    top: 0;
-    right: 0;
+    width: 40%;
+    height: 40%;
+    position: relative;
+    top: -215%;
+    right: -71.7%;
 }
 
 
